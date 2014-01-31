@@ -1,0 +1,64 @@
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_parametres"
+        android:gravity="center" />
+	    
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+		    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:text="@string/parametres_bluetooth"/>
+		    
+		    <ToggleButton
+		    android:id="@+id/togglebutton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textOn="on"
+		    android:textOff="off"
+		    android:onClick="onSwitchClicked"/>
+	    
+	 	</LinearLayout>
+	 	
+	    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    
+		    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:text="@string/parametres_partage"/>
+		    
+		    <ToggleButton
+		    android:id="@+id/togglebutton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textOn="on"
+		    android:textOff="off"
+		    android:onClick="onSwitchClicked"/>
+	    
+	 	</LinearLayout>
+	 	
+	 	<Button
+	    android:id="@+id/button_parametres_aide"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/parametres_aide"
+	    android:textStyle="bold"
+	    android:gravity="center"/>
+	    
+	</LinearLayout>
+	
+	
