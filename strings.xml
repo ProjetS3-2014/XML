@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projet</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="onglet">A definir</string>
+    <string name="liste_lecture">Liste lecture</string>
+    <string name="playlists">Playlists</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="liste_appareils">Liste Appareils</string>
+    <string name="parametres">Parametres</string>
+    <string name="title_activity_liste_lecture">ListeLecture</string>
+    <string name="title_activity_parametres">Parametres</string>
+    <string name="main_parametres">Parametres</string>
+    <string name="parametres_bluetooth">Bluetooth</string>
+    <string name="parametres_partage">Partage</string>
+    <string name="parametres_aide">Aide</string>
+
+</resources>
