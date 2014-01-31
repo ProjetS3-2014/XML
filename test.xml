@@ -27,6 +27,7 @@
 	    android:text="@string/liste_appareils"
 	    android:textStyle="bold"
 	    android:gravity="center"/>
+	    
     
     <Button 
         android:id="@+id/button_parametres"
